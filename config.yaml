@@ -1,0 +1,19 @@
+study_area:
+  centre_lon: 7.6869
+  centre_lat: 45.0703
+  area_km2: 1400
+  crs: EPSG:3035
+years: [2023, 2024]
+heat_threshold_c: 35
+heatwave_min_days: 3
+gust_threshold_ms: 20
+normalisation:
+  heat: 30
+  rain: 100
+  wind: 10
+weights:
+  equal: [1, 1, 1]
+  heat_focus: [2, 1, 1]
+  rain_focus: [1, 2, 1]
+  wind_focus: [1, 1, 2]
+seed: 20261028

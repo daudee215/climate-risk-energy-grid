@@ -1,0 +1,11 @@
+scenario,n,rank_spearman,selected_at_or_above_p90,overlap_with_equal,jaccard,provenance
+equal,512,1.0,140,140,1.0,new reconstruction
+heat_focus,512,0.9364784203879215,150,137,0.8954248366013072,new reconstruction
+rain_focus,512,0.9778008772062851,140,140,1.0,new reconstruction
+wind_focus,512,1.0,140,140,1.0,new reconstruction
+without_heat,512,0.789292358522176,181,140,0.7734806629834254,new reconstruction
+without_rain,512,-0.06371365998466841,93,0,0.0,new reconstruction
+without_wind,512,1.0,140,140,1.0,new reconstruction
+maximum_overlay,512,0.9530581241818802,169,140,0.8284023668639053,new reconstruction
+assumed_line_sensitivity,512,0.568178465518803,89,89,0.6357142857142857,new reconstruction
+assumed_line_adaptation,512,0.6079237212827282,52,52,0.37142857142857144,new reconstruction
