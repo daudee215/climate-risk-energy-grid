@@ -4,9 +4,15 @@ A 2023–2024 pilot comparing heat, rainfall and gust exposure for 512 publicly 
 
 [Portfolio case study](https://www.daudee.com/work/turin-grid-climate)
 
+## Inspect the published results
+
+- [Scenario sensitivity](results/sensitivity.csv) compares exposure rankings under different hazard weights.
+- [Temperature baseline notes](BASELINE_RESULTS.md) explain the 1991–2020 reference and the figures derived from it.
+- [Figures](figures/) show the mapped exposure and sensitivity results.
+
 ## Run
 
-Use Python 3.12 in a clean virtual environment. Full pipeline runs may need the original source snapshots or a new acquisition from the documented providers.
+Use Python 3.12 in a clean virtual environment. The main pipeline reacquires weather and OSM data, and the baseline step retrieves the longer temperature reference. The exact historical run depends on the original provider responses and feature geometry. See [methodology](METHODOLOGY.md) for source and scoring details.
 
 ```sh
 python -m pip install -r requirements-lock.txt
